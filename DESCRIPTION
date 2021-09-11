@@ -1,0 +1,16 @@
+Package: montyhall
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sandra",
+           family = "Perez",
+           role = c("aut", "cre"),
+           email = "slperez8@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This library creates a game based on the "Monty Hall". It has "goats" and "cars" behind the doors. The game simulates that the contestant chooses one door. The doors is selected randomly. The host then opens a door with a "goat" behind. The contestant has the option of change from his initial selecting to another door that is still closed.
+Depends:
+    dplyr
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
